@@ -65,6 +65,7 @@ GameObject:
   - component: {fileID: 8022954021460962557}
   - component: {fileID: 4327850106528714602}
   - component: {fileID: 584683058982610388}
+  - component: {fileID: 7218261224462889291}
   m_Layer: 9
   m_Name: DiagonalShooter
   m_TagString: Untagged
@@ -289,6 +290,25 @@ PolygonCollider2D:
       - {x: 0.44377327, y: -0.06328368}
       - {x: 0.43339705, y: 0.021777749}
   m_UseDelaunayMesh: 0
+--- !u!114 &7218261224462889291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8282131552441171991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d271c85fb6a1e546b37f1f81e5a648d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teamId: 1
+  damageAmount: 10
+  hitEffect: {fileID: 0}
+  destroyAfterDamage: 0
+  dealDamageOnTriggerEnter: 1
+  dealDamageOnTriggerStay: 0
+  dealDamageOnCollision: 0
 --- !u!1 &8282131553695226669
 GameObject:
   m_ObjectHideFlags: 0

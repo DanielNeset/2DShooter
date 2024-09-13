@@ -374,7 +374,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Enemys left: 0'
+  m_Text: 'Enemies left: 0'
 --- !u!114 &8249909573513884880
 MonoBehaviour:
   m_ObjectHideFlags: 0
