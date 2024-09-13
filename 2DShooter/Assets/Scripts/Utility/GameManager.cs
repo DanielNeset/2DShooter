@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
     public int enemiesToDefeat = 10;
     
     // The number of enemies defeated in game
-    private int enemiesDefeated = 0;
+    public int enemiesDefeated = 0;
 
     [Tooltip("Whether or not to print debug statements about whether the game can be won or not according to the game manager's" +
         " search at start up")]
@@ -62,6 +62,15 @@ public class GameManager : MonoBehaviour
 
     //The number of enemies observed by the game manager in this scene at start up"
     private int numberOfEnemiesFoundAtStart;
+
+    public static int enemy
+    {
+        get
+        {
+            return instance.enemiesToDefeat - (instance.enemiesDefeated);
+        }
+    }
+
 
     /// <summary>
     /// Description:
@@ -189,6 +198,7 @@ public class GameManager : MonoBehaviour
     public void IncrementEnemiesDefeated()
     {
         enemiesDefeated++;
+        UpdateUIElements();
         if (enemiesDefeated >= enemiesToDefeat && gameIsWinnable)
         {
             LevelCleared();
