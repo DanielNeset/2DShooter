@@ -28,6 +28,8 @@ public class ShootingController : MonoBehaviour
 
     // The last time this component was fired
     private float lastFired = Mathf.NegativeInfinity;
+    private float originalFireRate;
+    private float originalSpread;
 
     [Header("Effects")]
     [Tooltip("The effect to create when this fires")]
@@ -84,6 +86,11 @@ public class ShootingController : MonoBehaviour
                     "scene for it to run");
             }
         }
+    }
+
+    public void SetFireRate(float fireRate, float spread, float time)
+    {
+        StartCoroutine(UpdateFireRateTemporarily(fireRate, spread, time));
     }
 
     /// <summary>
@@ -158,5 +165,19 @@ public class ShootingController : MonoBehaviour
                 projectileGameObject.transform.SetParent(projectileHolder);
             }
         }
+    }
+
+    private IEnumerator UpdateFireRateTemporarily(float newFireRate, float newSpread, float duration)
+    {
+        originalFireRate = this.fireRate;
+        originalSpread = this.projectileSpread;
+
+        this.fireRate = newFireRate;
+        this.projectileSpread = newSpread;
+
+        yield return new WaitForSeconds(duration);
+
+        this.fireRate = originalFireRate;
+        this.projectileSpread = originalSpread;
     }
 }

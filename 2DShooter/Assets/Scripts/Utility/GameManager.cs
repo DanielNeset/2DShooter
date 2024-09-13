@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
     public int enemiesToDefeat = 10;
     
     // The number of enemies defeated in game
-    public int enemiesDefeated = 0;
+    private int enemiesDefeated = 0;
 
     [Tooltip("Whether or not to print debug statements about whether the game can be won or not according to the game manager's" +
         " search at start up")]
