@@ -23,7 +23,7 @@ public class EnemysLeftDisplay : UIelement
     {
         if (enemysLeftText != null)
         {
-            enemysLeftText.text = "Enemy´s left: " + GameManager.enemy.ToString();
+            enemysLeftText.text = "Enemys left: " + GameManager.enemy.ToString();
         }
     }
 

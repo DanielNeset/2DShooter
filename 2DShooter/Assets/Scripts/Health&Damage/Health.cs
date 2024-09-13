@@ -34,6 +34,10 @@ public class Health : MonoBehaviour
     [Tooltip("The maximum number of lives this health can have")]
     public int maximumLives = 5;
 
+    [Header("Lives Display")]
+    [Tooltip("Reference to the LifeDisplay script")]
+    public LifeDisplay lifeDisplay;  
+
     /// <summary>
     /// Description:
     /// Standard unity funciton called before the first frame update
@@ -45,6 +49,12 @@ public class Health : MonoBehaviour
     void Start()
     {
         SetRespawnPoint(transform.position);
+
+        if (useLives && lifeDisplay != null)
+        {
+            lifeDisplay.SetLives(currentLives); 
+        }
+
     }
 
     /// <summary>
@@ -129,6 +139,7 @@ public class Health : MonoBehaviour
         }
         else
         {
+
             if (hitEffect != null)
             {
                 Instantiate(hitEffect, transform.position, transform.rotation, null);
@@ -237,6 +248,10 @@ public class Health : MonoBehaviour
                 gameObject.GetComponent<Enemy>().DoBeforeDestroy();
             }
             Destroy(this.gameObject);
+        }
+        if (lifeDisplay != null)
+        {
+            lifeDisplay.SetLives(currentLives);  // Update LifeDisplay whenever lives change
         }
     }
 
