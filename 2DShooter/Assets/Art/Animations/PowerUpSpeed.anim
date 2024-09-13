@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PowerUp
+  m_Name: PowerUpSpeed
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,9 +21,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 7170769998743837174, guid: a1df8dd221232bd4f827df06b70df51d, type: 3}
+      value: {fileID: -2894027597143543032, guid: 21e2543537b890b4e9d417be1ee8c74b, type: 3}
     - time: 0.083333336
-      value: {fileID: -253950412114679973, guid: a1df8dd221232bd4f827df06b70df51d, type: 3}
+      value: {fileID: -1720862258988704087, guid: 21e2543537b890b4e9d417be1ee8c74b, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,8 +46,8 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 7170769998743837174, guid: a1df8dd221232bd4f827df06b70df51d, type: 3}
-    - {fileID: -253950412114679973, guid: a1df8dd221232bd4f827df06b70df51d, type: 3}
+    - {fileID: -2894027597143543032, guid: 21e2543537b890b4e9d417be1ee8c74b, type: 3}
+    - {fileID: -1720862258988704087, guid: 21e2543537b890b4e9d417be1ee8c74b, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

@@ -17,8 +17,10 @@ public class Controller : MonoBehaviour
     [Header("Movement Variables")]
     [Tooltip("The speed at which the player will move.")]
     public float moveSpeed = 10.0f;
+    private float originalSpeed;
     [Tooltip("The speed at which the player rotates in asteroids movement mode")]
     public float rotationSpeed = 60f;
+    private float originalRotationSpeed;
 
     //The InputManager to read input from
     private InputManager inputManager;
@@ -180,6 +182,11 @@ public class Controller : MonoBehaviour
         return result;
     }
 
+    public void SetPowerupSpeed(float fireRate, float spread, float time)
+    {
+        StartCoroutine(UpdateSpeedTemporarily(fireRate, spread, time));
+    }
+
     /// <summary>
     /// Description:
     /// Moves the player
@@ -262,5 +269,19 @@ public class Controller : MonoBehaviour
                 }
             }
         }
+    }
+
+    private IEnumerator UpdateSpeedTemporarily(float newSpeed, float newRotationSpeed, float duration)
+    {
+        originalSpeed = this.moveSpeed;
+        originalRotationSpeed = this.rotationSpeed;
+
+        this.moveSpeed = newSpeed;
+        this.rotationSpeed = newRotationSpeed;
+
+        yield return new WaitForSeconds(duration);
+
+        this.moveSpeed = originalSpeed;
+        this.rotationSpeed = originalRotationSpeed;
     }
 }
