@@ -203,9 +203,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teamId: 0
   duration: 5
-  rapidFire: 0
-  fireRate: 0.01
+  rapidFire: 1
+  fireRate: 0.025
   spread: 2
-  speed: 1
+  speed: 0
   movementSpeed: 20
   rotationSpeed: 120
+  postProcessController: {fileID: 0}

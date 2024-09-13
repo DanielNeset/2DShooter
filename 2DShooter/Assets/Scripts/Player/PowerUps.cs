@@ -22,6 +22,8 @@ public class PowerUps : MonoBehaviour
     public float movementSpeed = 20f;
     public float rotationSpeed = 120f;
 
+    [Header("Camera for Volume")]
+    public PostProcessController postProcessController;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -40,6 +42,7 @@ public class PowerUps : MonoBehaviour
                 if (shootingController != null)
                 {
                     shootingController.SetFireRate(fireRate, spread, duration);
+                    postProcessController.SetAndDecayIntensity(Color.red, 5f, 0.5f, duration);
                     Destroy(gameObject);
                 }
             }
@@ -49,6 +52,7 @@ public class PowerUps : MonoBehaviour
                 if (controller != null)
                 {
                     controller.SetPowerupSpeed(movementSpeed, rotationSpeed, duration);
+                    postProcessController.SetAndDecayIntensity(Color.blue, 5f, 0.5f, duration);
                     Destroy(gameObject);
                 }
             }
