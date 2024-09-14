@@ -298,6 +298,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 576cba70e4daccf488dda522850ba325, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 576cba70e4daccf488dda522850ba325, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.757639
@@ -656,6 +660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChaserEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2029536735206158367, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -712,6 +720,10 @@ PrefabInstance:
     - target: {fileID: 111767558614867189, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
       propertyPath: m_Name
       value: ChaserEnemy (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029536735206158367, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: currentLives
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1704,6 +1716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChaserEnemy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2029536735206158367, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1770,6 +1786,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef3d9bbaf354f482bbfca6ea88c367bc, type: 3}
+--- !u!224 &264998118 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4350354046661499864, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
+  m_PrefabInstance: {fileID: 2745267847689315570}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &274335532
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,6 +1883,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 69bb62ab0a22b454ab3c1a7e6c5a110a, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 69bb62ab0a22b454ab3c1a7e6c5a110a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.952532
@@ -2182,6 +2207,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 69bb62ab0a22b454ab3c1a7e6c5a110a, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 69bb62ab0a22b454ab3c1a7e6c5a110a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.79842
@@ -2287,6 +2316,10 @@ PrefabInstance:
     - target: {fileID: 111767558614867189, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
       propertyPath: m_Name
       value: ChaserEnemy (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029536735206158367, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: currentLives
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2674,6 +2707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChaserEnemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2029536735206158367, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2776,6 +2813,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 04a9a4a0f6aa3074ab31e1eea330b8e6, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 04a9a4a0f6aa3074ab31e1eea330b8e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1977698
@@ -3541,6 +3582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChaserEnemy (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2029536735206158367, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4130,6 +4175,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &793466184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 793466185}
+  - component: {fileID: 793466187}
+  - component: {fileID: 793466186}
+  m_Layer: 5
+  m_Name: UITitleText (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &793466185
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793466184}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 264998118}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -0.5025, y: -101.82}
+  m_SizeDelta: {x: 190.5929, y: 87.437}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &793466186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793466184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 2c7cc4c3cc08ca44ebdd6f1571de0373, type: 3}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: You defeted the ailens whom have plunder and causes panic across the universe
+--- !u!222 &793466187
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793466184}
+  m_CullTransparentMesh: 0
 --- !u!4 &794488288 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 111767558614867184, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
@@ -4397,6 +4521,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.851443
@@ -4755,6 +4883,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.617469
@@ -4896,6 +5028,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 576cba70e4daccf488dda522850ba325, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 576cba70e4daccf488dda522850ba325, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.2496578
@@ -4996,6 +5132,10 @@ PrefabInstance:
     - target: {fileID: 111767558614867189, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
       propertyPath: m_Name
       value: ChaserEnemy (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029536735206158367, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: currentLives
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5428,6 +5568,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.212531
@@ -5496,6 +5640,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 04a9a4a0f6aa3074ab31e1eea330b8e6, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 04a9a4a0f6aa3074ab31e1eea330b8e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1876092
@@ -5708,6 +5856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChaserEnemy (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2029536735206158367, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5721,6 +5873,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 576cba70e4daccf488dda522850ba325, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 576cba70e4daccf488dda522850ba325, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.9775332
@@ -5862,6 +6018,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.987469
@@ -6131,6 +6291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChaserEnemy (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2029536735206158367, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6374,6 +6538,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.2974684
@@ -6851,6 +7019,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.285513
@@ -7035,6 +7207,10 @@ PrefabInstance:
     - target: {fileID: 111767558614867189, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
       propertyPath: m_Name
       value: ChaserEnemy (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029536735206158367, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: currentLives
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7485,6 +7661,10 @@ PrefabInstance:
     - target: {fileID: 111767558614867189, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
       propertyPath: m_Name
       value: ChaserEnemy (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029536735206158367, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: currentLives
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8608,6 +8788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChaserEnemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2029536735206158367, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8789,6 +8973,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 04a9a4a0f6aa3074ab31e1eea330b8e6, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 04a9a4a0f6aa3074ab31e1eea330b8e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.6837044
@@ -9080,6 +9268,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 576cba70e4daccf488dda522850ba325, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 576cba70e4daccf488dda522850ba325, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.651053
@@ -9221,6 +9413,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 69bb62ab0a22b454ab3c1a7e6c5a110a, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 69bb62ab0a22b454ab3c1a7e6c5a110a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.8542695
@@ -9278,6 +9474,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 69bb62ab0a22b454ab3c1a7e6c5a110a, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 69bb62ab0a22b454ab3c1a7e6c5a110a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.22286
@@ -9335,6 +9535,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1533397348}
     m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
+      propertyPath: currentLives
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.612531
@@ -9435,6 +9639,10 @@ PrefabInstance:
     - target: {fileID: 111767558614867189, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
       propertyPath: m_Name
       value: ChaserEnemy (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029536735206158367, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: currentLives
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9584,13 +9792,49 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1142777916}
+    - target: {fileID: 1922029604686992766, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894299264687415622, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
+      propertyPath: m_Text
+      value: YOU WON!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3904530968798664468, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3904530968798664468, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3904530968798664468, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -43.1
+      objectReference: {fileID: 0}
     - target: {fileID: 3958654933569381102, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1142777916}
+    - target: {fileID: 4299333203830290161, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
+      propertyPath: m_Text
+      value: Main menu
+      objectReference: {fileID: 0}
     - target: {fileID: 4676595836178059342, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375185201680696825, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375185201680696825, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375185201680696825, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 40.6
       objectReference: {fileID: 0}
     - target: {fileID: 7377571786008345465, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
       propertyPath: m_Pivot.x
@@ -9678,7 +9922,10 @@ PrefabInstance:
       objectReference: {fileID: 1142777916}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4350354046661499864, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 793466185}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb6ab478ad3eb4a778e34ac5383522e3, type: 3}
 --- !u!1001 &6411704264348977201

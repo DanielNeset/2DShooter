@@ -743,7 +743,7 @@ PrefabInstance:
     - target: {fileID: 5116999874811354429, guid: ef3d9bbaf354f482bbfca6ea88c367bc, type: 3}
       propertyPath: postProcessController
       value: 
-      objectReference: {fileID: 1618711428}
+      objectReference: {fileID: 1618711427}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4718,7 +4718,7 @@ PrefabInstance:
     - target: {fileID: 5116999874811354429, guid: ef3d9bbaf354f482bbfca6ea88c367bc, type: 3}
       propertyPath: postProcessController
       value: 
-      objectReference: {fileID: 1618711428}
+      objectReference: {fileID: 1618711427}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9520,7 +9520,7 @@ PrefabInstance:
     - target: {fileID: 5116999874811354429, guid: ef3d9bbaf354f482bbfca6ea88c367bc, type: 3}
       propertyPath: postProcessController
       value: 
-      objectReference: {fileID: 1618711428}
+      objectReference: {fileID: 1618711427}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12769,7 +12769,7 @@ PrefabInstance:
     - target: {fileID: 5116999874811354429, guid: ef3d9bbaf354f482bbfca6ea88c367bc, type: 3}
       propertyPath: postProcessController
       value: 
-      objectReference: {fileID: 1618711428}
+      objectReference: {fileID: 1618711427}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14434,7 +14434,7 @@ PrefabInstance:
     - target: {fileID: 5526902727513036212, guid: a602435ac38664920901b461254663fc, type: 3}
       propertyPath: postProcessController
       value: 
-      objectReference: {fileID: 1618711428}
+      objectReference: {fileID: 1618711427}
     - target: {fileID: 7892641019060736766, guid: a602435ac38664920901b461254663fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 37.963287
@@ -15132,17 +15132,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   globalVolume: {fileID: 1618196114}
---- !u!114 &1618711428 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2010610260793097071, guid: 03ae2446e746e42d2ac50566b9c7a2b3, type: 3}
-  m_PrefabInstance: {fileID: 6411704264348977201}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1618711421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97d9ab513742a4e6ba3c0e96639c16e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1626136419
 GameObject:
   m_ObjectHideFlags: 0
@@ -15242,7 +15231,7 @@ PrefabInstance:
     - target: {fileID: 5526902727513036212, guid: a602435ac38664920901b461254663fc, type: 3}
       propertyPath: postProcessController
       value: 
-      objectReference: {fileID: 1618711428}
+      objectReference: {fileID: 1618711427}
     - target: {fileID: 7892641019060736766, guid: a602435ac38664920901b461254663fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.0375624
@@ -17042,7 +17031,7 @@ PrefabInstance:
     - target: {fileID: 5116999874811354429, guid: ef3d9bbaf354f482bbfca6ea88c367bc, type: 3}
       propertyPath: postProcessController
       value: 
-      objectReference: {fileID: 1618711428}
+      objectReference: {fileID: 1618711427}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17372,7 +17361,7 @@ PrefabInstance:
     - target: {fileID: 5526902727513036212, guid: a602435ac38664920901b461254663fc, type: 3}
       propertyPath: postProcessController
       value: 
-      objectReference: {fileID: 1618711428}
+      objectReference: {fileID: 1618711427}
     - target: {fileID: 7892641019060736766, guid: a602435ac38664920901b461254663fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -41.960766
@@ -18471,7 +18460,7 @@ PrefabInstance:
     - target: {fileID: 5526902727513036212, guid: a602435ac38664920901b461254663fc, type: 3}
       propertyPath: postProcessController
       value: 
-      objectReference: {fileID: 1618711428}
+      objectReference: {fileID: 1618711427}
     - target: {fileID: 7892641019060736766, guid: a602435ac38664920901b461254663fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.9407301
@@ -20063,7 +20052,8 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 12
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2010610260793097071, guid: 03ae2446e746e42d2ac50566b9c7a2b3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
